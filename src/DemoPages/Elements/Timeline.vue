@@ -101,23 +101,14 @@
 
   import PageTitle from "../../Layout/Components/PageTitle.vue";
 
-  import VuePerfectScrollbar from 'vue-perfect-scrollbar'
-
   export default {
     components: {
       PageTitle,
-
-      VuePerfectScrollbar
     },
     data: () => ({
       heading: 'Timelines',
       subheading: 'Timelines are used to show lists of notifications, tasks or actions in a beautiful way.',
       icon: 'pe-7s-light icon-gradient bg-malibu-beach',
-
-
-
     }),
-
-
   }
 </script>

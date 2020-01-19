@@ -34,8 +34,6 @@
 </template>
 
 <script>
-    import VuePerfectScrollbar from 'vue-perfect-scrollbar'
-
     import {library} from '@fortawesome/fontawesome-svg-core'
     import {
         faAngleDown,
@@ -66,7 +64,6 @@
 
     export default {
         components: {
-            VuePerfectScrollbar,
             'font-awesome-icon': FontAwesomeIcon,
         },
         data: () => ({

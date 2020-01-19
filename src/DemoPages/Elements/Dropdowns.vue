@@ -9,7 +9,7 @@
               <div class="card-body">
                 <h5 class="card-title">Basic</h5>
                 <template v-for="variant in ['primary','secondary','success','info','warning','danger','focus','alternate','light','dark','link']">
-                  <b-dropdown no-flip :text="variant" class="mb-2 mr-2" :variant="variant">
+                  <b-dropdown :key="variant" no-flip :text="variant" class="mb-2 mr-2" :variant="variant">
                     <button type="button" tabindex="0" class="dropdown-item">Menus</button>
                     <button type="button" tabindex="0" class="dropdown-item">Settings</button>
                     <h6 tabindex="-1" class="dropdown-header">Header</h6>
@@ -24,7 +24,7 @@
               <div class="card-body">
                 <h5 class="card-title">Split Dropdowns</h5>
                 <template v-for="variant in ['primary','secondary','success','info','warning','danger','focus','alternate','light','dark','link']">
-                  <b-dropdown no-flip split :text="variant" class="mb-2 mr-2" :variant="variant">
+                  <b-dropdown :key="variant" no-flip split :text="variant" class="mb-2 mr-2" :variant="variant">
                     <button type="button" tabindex="0" class="dropdown-item">Menus</button>
                     <button type="button" tabindex="0" class="dropdown-item">Settings</button>
                     <h6 tabindex="-1" class="dropdown-header">Header</h6>
@@ -39,7 +39,7 @@
               <div class="card-body">
                 <h5 class="card-title">Split Outline Dropdowns</h5>
                 <template v-for="variant in ['outline-primary','outline-secondary','outline-success','outline-info','outline-warning','outline-danger','outline-focus','outline-alternate','outline-light','outline-dark','outline-link']">
-                  <b-dropdown no-flip split :text="variant" class="mb-2 mr-2" :variant="variant">
+                  <b-dropdown :key="variant" no-flip split :text="variant" class="mb-2 mr-2" :variant="variant">
                     <button type="button" tabindex="0" class="dropdown-item">Menus</button>
                     <button type="button" tabindex="0" class="dropdown-item">Settings</button>
                     <h6 tabindex="-1" class="dropdown-header">Header</h6>
@@ -56,7 +56,7 @@
               <div class="card-body">
                 <h5 class="card-title">Outline</h5>
                 <template v-for="variant in ['outline-primary','outline-secondary','outline-success','outline-info','outline-warning','outline-danger','outline-focus','outline-alternate','outline-light','outline-dark','outline-link']">
-                  <b-dropdown no-flip :text="variant" class="mb-2 mr-2" :variant="variant">
+                  <b-dropdown :key="variant" no-flip :text="variant" class="mb-2 mr-2" :variant="variant">
                     <button type="button" tabindex="0" class="dropdown-item">Menus</button>
                     <button type="button" tabindex="0" class="dropdown-item">Settings</button>
                     <h6 tabindex="-1" class="dropdown-header">Header</h6>
@@ -71,7 +71,7 @@
               <div class="card-body">
                 <h5 class="card-title">Sizing</h5>
                 <template v-for="size in ['sm','','lg']">
-                  <b-dropdown no-flip :text="'Button ' + size" class="mb-2 mr-2" variant="outline-primary" :size="size">
+                  <b-dropdown :key="size" no-flip :text="'Button ' + size" class="mb-2 mr-2" variant="outline-primary" :size="size">
                     <button type="button" tabindex="0" class="dropdown-item">Menus</button>
                     <button type="button" tabindex="0" class="dropdown-item">Settings</button>
                     <h6 tabindex="-1" class="dropdown-header">Header</h6>
@@ -118,23 +118,14 @@
 
   import PageTitle from "../../Layout/Components/PageTitle.vue";
 
-  import VuePerfectScrollbar from 'vue-perfect-scrollbar'
-
   export default {
     components: {
-      PageTitle,
-
-      VuePerfectScrollbar
+      PageTitle
     },
     data: () => ({
       heading: 'Dropdowns',
       subheading: 'Multiple styles, actions and effects are available for the Archited Framework dropdown buttons.\n',
       icon: 'pe-7s-umbrella icon-gradient bg-sunny-morning',
-
-
-
     }),
-
-
   }
 </script>

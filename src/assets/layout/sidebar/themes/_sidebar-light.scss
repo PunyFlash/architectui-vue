@@ -29,7 +29,7 @@
     }
 
     .v-sidebar-menu {
-      .vsm-header {
+      .vsm--header {
         color: rgba(255, 255, 255, 0.6);
 
         &::before {
@@ -42,28 +42,28 @@
         color: rgba(255, 255, 255, 1);
       }
 
-      & .vsm-item.active-item {
-        & > .vsm-link {
+      & .vsm--item.active-item {
+        & > .vsm--link {
           @extend %side-link-hover;
         }
       }
 
-      .vsm-arrow,
-      .vsm-icon {
+      .vsm--arrow,
+      .vsm--icon {
         opacity: .5;
       }
 
-      & .vsm-link {
+      & .vsm--link {
         color: rgba(255, 255, 255, .7);
 
         &:hover {
-          .vsm-icon {
+          .vsm--icon {
             opacity: .65;
           }
         }
       }
 
-      & .vsm-dropdown {
+      & .vsm--dropdown {
         &::before {
           background: rgba(255, 255, 255, 0.1);
         }
