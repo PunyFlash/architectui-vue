@@ -31,7 +31,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="main-card mb-3 card"><img width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&amp;txt=318%C3%97180&amp;w=318&amp;h=180" alt="Card image cap" class="card-img-top">
+            <div class="main-card mb-3 card"><img width="100%" src="https://via.placeholder.com/318x180.jpg" alt="Card image cap" class="card-img-top">
               <div class="card-body"><h5 class="card-title">Card title</h5><h6 class="card-subtitle">Card subtitle</h6>Some quick example text to build on the card title and make up the bulk of the card's content.
                 <br><br>
                 <button class="btn btn-secondary">Button</button>
@@ -42,17 +42,17 @@
                 <br><br>
                 <small class="text-muted">Last updated 3 mins ago</small>
               </div>
-              <img width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&amp;txt=318%C3%97180&amp;w=318&amp;h=180" alt="Card image cap" class="card-img-bottom"></div>
+              <img width="100%" src="https://via.placeholder.com/318x180.jpg" alt="Card image cap" class="card-img-bottom"></div>
           </div>
           <div class="col-md-4">
             <div class="main-card mb-3 card">
               <div class="card-body"><h5 class="card-title">Card title</h5><h6 class="mb-0 card-subtitle">Card subtitle</h6></div>
-              <img width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&amp;txt=318%C3%97180&amp;w=318&amp;h=180" alt="Card image cap">
+              <img width="100%" src="https://via.placeholder.com/318x180.jpg" alt="Card image cap">
               <div class="card-body">Some quick example text to build on the card title and make up the bulk of the card's content.<br><br><a href="javascript:void(0);" class="card-link">Card Link</a><a href="javascript:void(0);"
                                                                                                                                                                                                            class="card-link">Another
                 Link</a></div>
             </div>
-            <div class="main-card mb-3 card"><img width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&amp;txt=318%C3%97180&amp;w=318&amp;h=180" alt="Card image cap" class="card-img-top">
+            <div class="main-card mb-3 card"><img width="100%" src="https://via.placeholder.com/318x180.jpg" alt="Card image cap" class="card-img-top">
               <div class="card-body"><h5 class="card-title">Card Title</h5>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
                 <br><br>
                 <small class="text-muted">Last updated 3 mins ago</small>
@@ -70,7 +70,7 @@
             <div class="card-shadow-info border mb-3 card card-body border-info"><h5 class="card-title">Info Card Shadow</h5>With supporting text below as a natural lead-in to additional content.</div>
             <div class="card-shadow-focus border mb-3 card card-body border-focus"><h5 class="card-title">Focus Card Shadow</h5>With supporting text below as a natural lead-in to additional content.</div>
             <div class="card-shadow-alternate border mb-3 card card-body border-alternate"><h5 class="card-title">Alternate Card Shadow</h5>With supporting text below as a natural lead-in to additional content.</div>
-            <div class="mb-3 card text-white"><img width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&amp;txt=318%C3%97270&amp;w=318&amp;h=270&amp;bg=333333&amp;txtclr=666666" alt="Card image cap" class="card-img">
+            <div class="mb-3 card text-white"><img width="100%" src="https://via.placeholder.com/318x270.jpg" alt="Card image cap" class="card-img">
               <div class="card-img-overlay"><h5 class="text-white card-title">Card Title</h5>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
                 <br><br>
                 <small class="text-white">Last updated 3 mins ago</small>
